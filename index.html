@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title> Digipet Emoji </title>
+</head>
+
+<body>
+    <section id="tela" class="flex column">
+        <h1>Digipet Emoji</h1>
+        <h2 id="show-nome">Nome</h2>
+        <p id="baby"> 🥚 </p>
+
+        <p class="nivel">Nível: <span id="nivel">1</span></p>
+        <div class="flex space">
+            <p class="status">Fome: <span id="fome">0</span>%</p>
+            <button class="btn" id="comer">Comer 🍕</button>
+        </div>
+        <div  class="flex  space">
+            <p class="status">Estômago: <span id="estomago">0</span>%</p>
+            <button class="btn" id="coco">Cocô 💩</button>
+        </div>
+        <div  class="flex  space">
+            <p class="status">Sono: <span id="sono">0</span>%</p>
+            <button class="btn" id="dormir">Dormir 💤</button>
+        </div>
+        <p>Tente manter sempre as necessidades até 50% e seu bebê irá crescer forte e saudável.</p>
+    </section>
+
+    <section id="pop-up" class="inicio-on">
+        <p id="baby"> 🥚 </p>
+        <h3>Digite o nome do seu Bebê</h3>        
+        <input type="text" id="nome">
+        <button class="btn lg" id="btn-play"> COMEÇAR! </button>
+    </section>
+
+    <section id="game-over" class="inicio-off">
+        <h3>GAME OVER... 👻</h3>
+        <button class="btn lg" id="replay">Recomeçar</button>
+    </section>
+
+    <footer>Created by augustolimads@gmail.com</footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

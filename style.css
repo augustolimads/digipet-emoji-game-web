@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+#tela{
+    min-width: calc(10vw + 250px);
+    max-width: 30vw;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+#tela h1, h2, p{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+.space{
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.nivel{
+    margin: 1.5em;
+}
+
+h1 { 
+    text-decoration: underline;
+    margin-bottom: 0.5em;
+}
+h1, h2{
+    font-size: 3em;
+    color: rebeccapurple
+}
+
+p, button{
+    font-size: 1.5em;
+}
+#baby{
+    font-size: 4em;
+}
+
+.btn{
+    padding: 2% 10px;
+    width: 15vw;
+    min-width: 80px;
+    border: none;
+    background-color: palegreen;
+}
+
+.lg{
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: turquoise;
+}
+.btn:active{
+    background-color: turquoise;
+    color: white;
+    transform: scale(0.9, 0.9);
+}
+
+
+/* caixa-span */
+#game-over{
+    font-size: 4em;
+}
+
+.inicio-on{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color:midnightblue;
+    color: white;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    padding: 10vh 30vw;
+}
+.inicio-off{
+    display: none
+}
+
+footer{
+    text-align: center;
+    color: lightgray
+}
