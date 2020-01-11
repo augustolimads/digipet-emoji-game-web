@@ -6,7 +6,7 @@
 }
 
 #tela{
-    min-width: calc(10vw + 250px);
+    min-width: calc(10vw + 300px);
     max-width: 30vw;
     margin: 0 auto;
     padding: 2em;
@@ -85,13 +85,39 @@ p, button{
     position: absolute;
     z-index: 99;
     top: 0;
-    padding: 10vh 30vw;
+    padding: 10vh 10vw;
 }
 .inicio-off{
     display: none
 }
 
+#nome{
+    height: 8vh;
+}
+
 footer{
     text-align: center;
     color: lightgray
+}
+
+@media only screen and (max-width: 768px) {
+    #tela{
+        width: 50vw;
+        margin: 0 auto;
+        padding: 2em;
+    }
+    #game-over{
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #game-over{
+        font-size: 2em;
+    }
+    #baby{
+        font-size: 2.5em;
+    }
+}
+@media only screen and (max-width: 320px) {
+
 }
